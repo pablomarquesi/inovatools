@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Inovatools</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Inovatools</h1>
+        <div id="menu">
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="abrir-gerador-qrcode">QR Code</a></li>
+                <!-- Outras funcionalidades podem ser adicionadas aqui -->
+            </ul>
+            <br>
+        </div>
+        <!-- Seção para gerar QR Code, inicialmente escondida -->
+        <div id="secao-qrcode" style="display: none;">
+            <input type="text" id="url" placeholder="Cole a URL aqui">
+            <button id="gerar">Gerar QR Code</button>
+            <div id="qrcode"></div>
+        </div>
+        <!-- Outras seções de funcionalidades podem ser adicionadas aqui -->
+    </div>
+
+    <div id="footer">
+        <img src="images/logo_inovajus.png" alt="Logo InovaJus" />
+    </div>
+
+    <script src="qrcodejs/qrcode.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

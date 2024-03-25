@@ -17,14 +17,13 @@ body, html {
     justify-content: start;
     align-items: center;
     text-align: center;
-    overflow: auto;
     background-color: #ffffff;
     margin: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     border-radius: 8px;
     width: 90%; /* Ajuste para uma porcentagem do espaço disponível ou um valor fixo */
     height: auto; /* Ajuste para 'auto' ou um valor fixo */
-    max-width: 600px; /* Opcional: limita a largura máxima */
+    max-width: 500px; /* Opcional: limita a largura máxima */
     min-height: 300px; /* Opcional: define uma altura mínima */
 }
 
